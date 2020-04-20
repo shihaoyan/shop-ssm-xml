@@ -1,0 +1,147 @@
+2019-11-15 13:58:53  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 13:58:54  [ localhost-startStop-1:1531 ] - [ INFO ]  Root WebApplicationContext initialized in 1531 ms
+2019-11-15 13:58:54  [ localhost-startStop-1:1547 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 13:58:55  [ localhost-startStop-1:2109 ] - [ INFO ]  Completed initialization in 562 ms
+2019-11-15 14:00:22  [ http-bio-8080-exec-10:89150 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 18:21:47  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:21:57  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:21:59  [ localhost-startStop-1:1424 ] - [ INFO ]  Root WebApplicationContext initialized in 1422 ms
+2019-11-15 18:21:59  [ localhost-startStop-1:1466 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 18:21:59  [ localhost-startStop-1:2219 ] - [ INFO ]  Completed initialization in 753 ms
+2019-11-15 18:22:38  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:22:39  [ localhost-startStop-1:1533 ] - [ INFO ]  Root WebApplicationContext initialized in 1533 ms
+2019-11-15 18:22:39  [ localhost-startStop-1:1566 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 18:22:40  [ localhost-startStop-1:2253 ] - [ INFO ]  Completed initialization in 687 ms
+2019-11-15 18:22:51  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:22:53  [ localhost-startStop-1:1284 ] - [ INFO ]  Root WebApplicationContext initialized in 1283 ms
+2019-11-15 18:22:53  [ localhost-startStop-1:1316 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 18:22:53  [ localhost-startStop-1:1854 ] - [ INFO ]  Completed initialization in 537 ms
+2019-11-15 18:23:13  [ http-bio-8080-exec-4:21637 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 18:23:14  [ http-bio-8080-exec-1:22336 ] - [ INFO ]  系统出现异常，进入全局异常处理器
+2019-11-15 18:23:14  [ http-bio-8080-exec-1:22338 ] - [ ERROR ]  系统发生异常
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at java.util.concurrent.ConcurrentHashMap.containsKey(ConcurrentHashMap.java:964)
+	at bh.db.ssm.interceptor.MyHandlerInterceptor.preHandle(MyHandlerInterceptor.java:59)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-15 18:25:54  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:25:55  [ localhost-startStop-1:1416 ] - [ INFO ]  Root WebApplicationContext initialized in 1415 ms
+2019-11-15 18:25:55  [ localhost-startStop-1:1440 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 18:25:56  [ localhost-startStop-1:1966 ] - [ INFO ]  Completed initialization in 526 ms
+2019-11-15 18:40:23  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:40:24  [ localhost-startStop-1:1004 ] - [ INFO ]  Root WebApplicationContext initialized in 1004 ms
+2019-11-15 18:40:24  [ localhost-startStop-1:1035 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 18:40:25  [ localhost-startStop-1:1774 ] - [ INFO ]  Completed initialization in 739 ms
+2019-11-15 18:40:49  [ http-bio-8080-exec-7:25824 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 18:54:32  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 18:54:33  [ localhost-startStop-1:1216 ] - [ INFO ]  Root WebApplicationContext initialized in 1216 ms
+2019-11-15 18:54:33  [ localhost-startStop-1:1248 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 18:54:33  [ localhost-startStop-1:1734 ] - [ INFO ]  Completed initialization in 486 ms
+2019-11-15 19:03:25  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 19:03:26  [ localhost-startStop-1:1224 ] - [ INFO ]  Root WebApplicationContext initialized in 1224 ms
+2019-11-15 19:03:26  [ localhost-startStop-1:1253 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 19:03:27  [ localhost-startStop-1:1825 ] - [ INFO ]  Completed initialization in 572 ms
+2019-11-15 19:05:17  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 19:05:18  [ localhost-startStop-1:1269 ] - [ INFO ]  Root WebApplicationContext initialized in 1269 ms
+2019-11-15 19:05:18  [ localhost-startStop-1:1295 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 19:05:19  [ localhost-startStop-1:1821 ] - [ INFO ]  Completed initialization in 526 ms
+2019-11-15 19:29:55  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 19:29:56  [ localhost-startStop-1:1336 ] - [ INFO ]  Root WebApplicationContext initialized in 1336 ms
+2019-11-15 19:29:56  [ localhost-startStop-1:1362 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 19:29:57  [ localhost-startStop-1:1875 ] - [ INFO ]  Completed initialization in 513 ms
+2019-11-15 19:33:38  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 19:33:39  [ localhost-startStop-1:1099 ] - [ INFO ]  Root WebApplicationContext initialized in 1099 ms
+2019-11-15 19:33:39  [ localhost-startStop-1:1124 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 19:33:40  [ localhost-startStop-1:1640 ] - [ INFO ]  Completed initialization in 515 ms
+2019-11-15 19:34:50  [ http-bio-8080-exec-15:71593 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 19:35:49  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 19:35:50  [ localhost-startStop-1:1229 ] - [ INFO ]  Root WebApplicationContext initialized in 1228 ms
+2019-11-15 19:35:50  [ localhost-startStop-1:1262 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 19:35:51  [ localhost-startStop-1:1743 ] - [ INFO ]  Completed initialization in 481 ms
+2019-11-15 19:36:56  [ http-bio-8080-exec-10:67080 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 19:42:20  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 19:42:22  [ localhost-startStop-1:1374 ] - [ INFO ]  Root WebApplicationContext initialized in 1374 ms
+2019-11-15 19:42:22  [ localhost-startStop-1:1396 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 19:42:22  [ localhost-startStop-1:1941 ] - [ INFO ]  Completed initialization in 545 ms
+2019-11-15 20:44:00  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 20:44:01  [ localhost-startStop-1:1128 ] - [ INFO ]  Root WebApplicationContext initialized in 1128 ms
+2019-11-15 20:44:01  [ localhost-startStop-1:1157 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 20:44:01  [ localhost-startStop-1:1639 ] - [ INFO ]  Completed initialization in 482 ms
+2019-11-15 20:57:53  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 20:57:54  [ localhost-startStop-1:1206 ] - [ INFO ]  Root WebApplicationContext initialized in 1205 ms
+2019-11-15 20:57:54  [ localhost-startStop-1:1237 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 20:57:54  [ localhost-startStop-1:1761 ] - [ INFO ]  Completed initialization in 524 ms
+2019-11-15 21:03:43  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:03:45  [ localhost-startStop-1:1182 ] - [ INFO ]  Root WebApplicationContext initialized in 1181 ms
+2019-11-15 21:03:45  [ localhost-startStop-1:1206 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:03:45  [ localhost-startStop-1:1717 ] - [ INFO ]  Completed initialization in 511 ms
+2019-11-15 21:05:55  [ http-bio-8080-exec-11:131885 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 21:07:21  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:07:23  [ localhost-startStop-1:1193 ] - [ INFO ]  Root WebApplicationContext initialized in 1193 ms
+2019-11-15 21:07:23  [ localhost-startStop-1:1227 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:07:23  [ localhost-startStop-1:1804 ] - [ INFO ]  Completed initialization in 576 ms
+2019-11-15 21:08:46  [ http-bio-8080-exec-4:84364 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 21:10:28  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:10:29  [ localhost-startStop-1:1162 ] - [ INFO ]  Root WebApplicationContext initialized in 1161 ms
+2019-11-15 21:10:29  [ localhost-startStop-1:1192 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:10:30  [ localhost-startStop-1:1703 ] - [ INFO ]  Completed initialization in 511 ms
+2019-11-15 21:11:00  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:11:02  [ localhost-startStop-1:1360 ] - [ INFO ]  Root WebApplicationContext initialized in 1359 ms
+2019-11-15 21:11:02  [ localhost-startStop-1:1419 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:11:03  [ localhost-startStop-1:2194 ] - [ INFO ]  Completed initialization in 775 ms
+2019-11-15 21:11:15  [ http-bio-8080-exec-8:14922 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 21:21:41  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:21:42  [ localhost-startStop-1:1242 ] - [ INFO ]  Root WebApplicationContext initialized in 1241 ms
+2019-11-15 21:21:42  [ localhost-startStop-1:1272 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:21:43  [ localhost-startStop-1:1836 ] - [ INFO ]  Completed initialization in 564 ms
+2019-11-15 21:22:11  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:22:13  [ localhost-startStop-1:1187 ] - [ INFO ]  Root WebApplicationContext initialized in 1187 ms
+2019-11-15 21:22:13  [ localhost-startStop-1:1213 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:22:13  [ localhost-startStop-1:1738 ] - [ INFO ]  Completed initialization in 525 ms
+2019-11-15 21:25:41  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:25:42  [ localhost-startStop-1:1105 ] - [ INFO ]  Root WebApplicationContext initialized in 1104 ms
+2019-11-15 21:25:42  [ localhost-startStop-1:1139 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:25:43  [ localhost-startStop-1:1862 ] - [ INFO ]  Completed initialization in 722 ms
+2019-11-15 21:26:54  [ http-bio-8080-exec-9:73322 ] - [ INFO ]  {dataSource-1} inited
+2019-11-15 21:39:35  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:39:36  [ localhost-startStop-1:1157 ] - [ INFO ]  Root WebApplicationContext initialized in 1157 ms
+2019-11-15 21:39:36  [ localhost-startStop-1:1198 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:39:36  [ localhost-startStop-1:1799 ] - [ INFO ]  Completed initialization in 601 ms
+2019-11-15 21:40:05  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-15 21:40:07  [ localhost-startStop-1:1509 ] - [ INFO ]  Root WebApplicationContext initialized in 1509 ms
+2019-11-15 21:40:07  [ localhost-startStop-1:1577 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-15 21:40:08  [ localhost-startStop-1:2320 ] - [ INFO ]  Completed initialization in 743 ms

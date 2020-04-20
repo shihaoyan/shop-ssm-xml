@@ -1,0 +1,5 @@
+2019-11-16 18:09:57  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-11-16 18:09:58  [ localhost-startStop-1:1278 ] - [ INFO ]  Root WebApplicationContext initialized in 1276 ms
+2019-11-16 18:09:58  [ localhost-startStop-1:1312 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-11-16 18:09:59  [ localhost-startStop-1:1873 ] - [ INFO ]  Completed initialization in 561 ms
+2019-11-16 18:10:20  [ http-bio-8080-exec-8:23453 ] - [ INFO ]  {dataSource-1} inited

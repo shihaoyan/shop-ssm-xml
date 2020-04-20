@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	    http://www.springframework.org/schema/context
+	    http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	    http://www.springframework.org/schema/aop
+	    http://www.springframework.org/schema/aop/spring-aop-4.2.xsd">
+
+
+    <!--因为需要再除去service层其他的层也需要进行值注入-->
+    <context:property-placeholder ignore-unresolvable="true" location="classpath*:properties/resource.properties" />
+
+
+    <!-- 配置包扫描器，扫描bh.db.ssm下的所有的准备交给spring管理的类,其实也开启了自动注入,应该去掉controller  -->
+    <context:component-scan base-package="bh.db.ssm">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:exclude-filter type="annotation" expression="bh.db.ssm.annotation.MvcAnnotatation" />
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository" />
+    </context:component-scan>
+
+
+    <!--开启aop功能，在service插入用户之前应该打印用户信息-->
+    <aop:aspectj-autoproxy/>
+
+
+
+
+</beans>

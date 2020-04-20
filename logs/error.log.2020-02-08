@@ -1,0 +1,290 @@
+2020-02-08 20:47:15  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:47:25  [ localhost-startStop-1:9407 ] - [ INFO ]  Root WebApplicationContext initialized in 9405 ms
+2020-02-08 20:47:25  [ localhost-startStop-1:9905 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 20:47:28  [ localhost-startStop-1:12772 ] - [ INFO ]  Completed initialization in 2866 ms
+2020-02-08 20:48:01  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:48:06  [ localhost-startStop-1:5367 ] - [ INFO ]  Root WebApplicationContext initialized in 5366 ms
+2020-02-08 20:48:06  [ localhost-startStop-1:5866 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 20:48:09  [ localhost-startStop-1:8639 ] - [ INFO ]  Completed initialization in 2772 ms
+2020-02-08 20:49:35  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:52:15  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:53:02  [ localhost-startStop-1:46618 ] - [ INFO ]  Root WebApplicationContext initialized in 46617 ms
+2020-02-08 20:53:02  [ localhost-startStop-1:47102 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 20:55:56  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:56:01  [ localhost-startStop-1:5490 ] - [ INFO ]  Root WebApplicationContext initialized in 5489 ms
+2020-02-08 20:56:02  [ localhost-startStop-1:5967 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 20:58:15  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:58:27  [ localhost-startStop-1:12112 ] - [ INFO ]  Root WebApplicationContext initialized in 12111 ms
+2020-02-08 20:58:27  [ localhost-startStop-1:12609 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 20:58:39  [ localhost-startStop-1:24486 ] - [ INFO ]  Completed initialization in 11877 ms
+2020-02-08 20:59:13  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 20:59:20  [ localhost-startStop-1:7171 ] - [ INFO ]  Root WebApplicationContext initialized in 7170 ms
+2020-02-08 20:59:20  [ localhost-startStop-1:7650 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 21:04:38  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:50:28  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:51:11  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:51:32  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:51:39  [ localhost-startStop-1:7260 ] - [ INFO ]  Root WebApplicationContext initialized in 7259 ms
+2020-02-08 21:51:40  [ localhost-startStop-1:7747 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 21:53:32  [ localhost-startStop-1:1 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:53:35  [ localhost-startStop-1:2737 ] - [ INFO ]  Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-08 21:53:38  [ localhost-startStop-1:5983 ] - [ INFO ]  Root WebApplicationContext initialized in 5982 ms
+2020-02-08 21:53:38  [ localhost-startStop-1:6448 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 21:55:15  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:55:18  [ localhost-startStop-1:3612 ] - [ INFO ]  Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-08 21:55:22  [ localhost-startStop-1:7122 ] - [ INFO ]  Root WebApplicationContext initialized in 7122 ms
+2020-02-08 21:55:22  [ localhost-startStop-1:7616 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 21:58:16  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 21:58:20  [ localhost-startStop-1:3492 ] - [ INFO ]  Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-08 21:58:44  [ localhost-startStop-1:27766 ] - [ INFO ]  Root WebApplicationContext initialized in 27765 ms
+2020-02-08 21:58:45  [ localhost-startStop-1:28251 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:01:01  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:01:18  [ localhost-startStop-1:17049 ] - [ INFO ]  Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-08 22:01:21  [ localhost-startStop-1:20329 ] - [ INFO ]  Root WebApplicationContext initialized in 20329 ms
+2020-02-08 22:01:22  [ localhost-startStop-1:20793 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:01:47  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:09:23  [ localhost-startStop-1:455388 ] - [ INFO ]  Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-08 22:12:38  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:12:40  [ localhost-startStop-1:1623 ] - [ INFO ]  Root WebApplicationContext initialized in 1622 ms
+2020-02-08 22:12:40  [ localhost-startStop-1:2077 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:12:41  [ localhost-startStop-1:2785 ] - [ INFO ]  Completed initialization in 708 ms
+2020-02-08 22:15:55  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:15:56  [ localhost-startStop-1:1682 ] - [ INFO ]  Root WebApplicationContext initialized in 1681 ms
+2020-02-08 22:15:57  [ localhost-startStop-1:2140 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:15:58  [ localhost-startStop-1:2869 ] - [ INFO ]  Completed initialization in 729 ms
+2020-02-08 22:17:05  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:17:30  [ localhost-startStop-1:24202 ] - [ INFO ]  Root WebApplicationContext initialized in 24202 ms
+2020-02-08 22:17:30  [ localhost-startStop-1:24688 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:20:20  [ localhost-startStop-1:194263 ] - [ INFO ]  Completed initialization in 169575 ms
+2020-02-08 22:21:06  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:21:38  [ localhost-startStop-1:32214 ] - [ INFO ]  Root WebApplicationContext initialized in 32213 ms
+2020-02-08 22:21:39  [ localhost-startStop-1:32719 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:23:58  [ localhost-startStop-1:171562 ] - [ INFO ]  Completed initialization in 138843 ms
+2020-02-08 22:24:14  [ http-bio-8080-exec-3:187471 ] - [ INFO ]  -----------info------------
+2020-02-08 22:24:14  [ http-bio-8080-exec-1:187933 ] - [ INFO ]  -----------info------------
+2020-02-08 22:24:24  [ http-bio-8080-exec-1:198049 ] - [ INFO ]  系统出现异常，进入全局异常处理器
+2020-02-08 22:24:24  [ http-bio-8080-exec-1:198067 ] - [ ERROR ]  系统发生异常
+java.lang.NullPointerException
+	at bh.db.ssm.service.admin.impl.UserServiceImpl.login(UserServiceImpl.java:134)
+	at bh.db.ssm.controller.admin.LoginController.login(LoginController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-08 22:25:23  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:25:25  [ localhost-startStop-1:1666 ] - [ INFO ]  Root WebApplicationContext initialized in 1665 ms
+2020-02-08 22:25:25  [ localhost-startStop-1:2118 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:25:26  [ localhost-startStop-1:2939 ] - [ INFO ]  Completed initialization in 821 ms
+2020-02-08 22:25:34  [ http-bio-8080-exec-1:11011 ] - [ INFO ]  -----------info------------
+2020-02-08 22:25:34  [ http-bio-8080-exec-4:11188 ] - [ INFO ]  -----------info------------
+2020-02-08 22:25:41  [ http-bio-8080-exec-5:17490 ] - [ INFO ]  系统出现异常，进入全局异常处理器
+2020-02-08 22:25:41  [ http-bio-8080-exec-5:17502 ] - [ ERROR ]  系统发生异常
+java.lang.NullPointerException
+	at bh.db.ssm.service.admin.impl.UserServiceImpl.login(UserServiceImpl.java:134)
+	at bh.db.ssm.controller.admin.LoginController.login(LoginController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-08 22:26:25  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:26:27  [ localhost-startStop-1:1671 ] - [ INFO ]  Root WebApplicationContext initialized in 1670 ms
+2020-02-08 22:26:27  [ localhost-startStop-1:2123 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:26:28  [ localhost-startStop-1:2928 ] - [ INFO ]  Completed initialization in 805 ms
+2020-02-08 22:26:36  [ http-bio-8080-exec-1:10852 ] - [ INFO ]  -----------info------------
+2020-02-08 22:26:36  [ http-bio-8080-exec-4:11028 ] - [ INFO ]  -----------info------------
+2020-02-08 22:26:44  [ http-bio-8080-exec-5:18748 ] - [ INFO ]  系统出现异常，进入全局异常处理器
+2020-02-08 22:26:44  [ http-bio-8080-exec-5:18762 ] - [ ERROR ]  系统发生异常
+java.lang.NullPointerException
+	at bh.db.ssm.service.admin.impl.UserServiceImpl.login(UserServiceImpl.java:135)
+	at bh.db.ssm.controller.admin.LoginController.login(LoginController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-08 22:27:34  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:27:36  [ localhost-startStop-1:1731 ] - [ INFO ]  Root WebApplicationContext initialized in 1730 ms
+2020-02-08 22:27:36  [ localhost-startStop-1:2187 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:27:37  [ localhost-startStop-1:3010 ] - [ INFO ]  Completed initialization in 823 ms
+2020-02-08 22:27:44  [ http-bio-8080-exec-1:10198 ] - [ INFO ]  -----------info------------
+2020-02-08 22:27:44  [ http-bio-8080-exec-4:10404 ] - [ INFO ]  -----------info------------
+2020-02-08 22:27:50  [ http-bio-8080-exec-5:16139 ] - [ INFO ]  系统出现异常，进入全局异常处理器
+2020-02-08 22:27:50  [ http-bio-8080-exec-5:16152 ] - [ ERROR ]  系统发生异常
+java.lang.NullPointerException
+	at bh.db.ssm.service.admin.impl.UserServiceImpl.login(UserServiceImpl.java:138)
+	at bh.db.ssm.controller.admin.LoginController.login(LoginController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-08 22:31:13  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:31:14  [ localhost-startStop-1:1607 ] - [ INFO ]  Root WebApplicationContext initialized in 1606 ms
+2020-02-08 22:31:15  [ localhost-startStop-1:2088 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:31:16  [ localhost-startStop-1:2789 ] - [ INFO ]  Completed initialization in 700 ms
+2020-02-08 22:31:16  [ http-bio-8080-exec-1:3048 ] - [ INFO ]  -----------info------------
+2020-02-08 22:31:16  [ http-bio-8080-exec-4:3211 ] - [ INFO ]  -----------info------------
+2020-02-08 22:31:22  [ http-bio-8080-exec-5:9615 ] - [ INFO ]  {dataSource-1} inited
+2020-02-08 22:35:15  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-02-08 22:35:23  [ localhost-startStop-1:7701 ] - [ INFO ]  Root WebApplicationContext initialized in 7700 ms
+2020-02-08 22:35:23  [ localhost-startStop-1:8183 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-02-08 22:41:41  [ localhost-startStop-1:385932 ] - [ INFO ]  Completed initialization in 377749 ms
+2020-02-08 22:41:42  [ http-bio-8080-exec-3:386376 ] - [ INFO ]  -----------info------------

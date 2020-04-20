@@ -1,0 +1,393 @@
+2019-12-20 10:39:46  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:39:47  [ localhost-startStop-1:1750 ] - [ INFO ]  Root WebApplicationContext initialized in 1750 ms
+2019-12-20 10:39:48  [ localhost-startStop-1:2203 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:39:49  [ localhost-startStop-1:2891 ] - [ INFO ]  Completed initialization in 688 ms
+2019-12-20 10:44:25  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:44:27  [ localhost-startStop-1:2327 ] - [ INFO ]  Root WebApplicationContext initialized in 2326 ms
+2019-12-20 10:44:28  [ localhost-startStop-1:2863 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:44:29  [ localhost-startStop-1:3960 ] - [ INFO ]  Completed initialization in 1097 ms
+2019-12-20 10:44:48  [ http-bio-8080-exec-3:23486 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 10:45:40  [ http-bio-8080-exec-3:75366 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 10:45:42  [ http-bio-8080-exec-4:77454 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 10:45:44  [ http-bio-8080-exec-8:79591 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 10:45:52  [ http-bio-8080-exec-8:86695 ] - [ INFO ]  {dataSource-1} inited
+2019-12-20 10:46:14  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:46:15  [ localhost-startStop-1:1734 ] - [ INFO ]  Root WebApplicationContext initialized in 1734 ms
+2019-12-20 10:46:16  [ localhost-startStop-1:2203 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:46:16  [ localhost-startStop-1:2937 ] - [ INFO ]  Completed initialization in 734 ms
+2019-12-20 10:46:28  [ http-bio-8080-exec-3:14622 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 10:48:11  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:48:12  [ localhost-startStop-1:1688 ] - [ INFO ]  Root WebApplicationContext initialized in 1688 ms
+2019-12-20 10:48:13  [ localhost-startStop-1:2156 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:48:14  [ localhost-startStop-1:2875 ] - [ INFO ]  Completed initialization in 719 ms
+2019-12-20 10:48:28  [ http-bio-8080-exec-1:16995 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 10:48:38  [ http-bio-8080-exec-3:27101 ] - [ INFO ]  {dataSource-1} inited
+2019-12-20 10:50:31  [ localhost-startStop-1:1 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:50:32  [ localhost-startStop-1:779 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+2019-12-20 10:50:32  [ localhost-startStop-1:783 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:181)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:162)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:144)
+	... 16 more
+2019-12-20 10:51:26  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:51:28  [ localhost-startStop-1:1728 ] - [ INFO ]  Root WebApplicationContext initialized in 1728 ms
+2019-12-20 10:51:29  [ localhost-startStop-1:2181 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:51:29  [ localhost-startStop-1:2322 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+2019-12-20 10:51:29  [ localhost-startStop-1:2322 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:181)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:162)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:144)
+	... 23 more
+2019-12-20 10:52:48  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:52:50  [ localhost-startStop-1:1781 ] - [ INFO ]  Root WebApplicationContext initialized in 1781 ms
+2019-12-20 10:52:50  [ localhost-startStop-1:2078 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:52:50  [ localhost-startStop-1:2235 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+2019-12-20 10:52:50  [ localhost-startStop-1:2235 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:181)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:162)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:144)
+	... 23 more
+2019-12-20 10:53:41  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:53:42  [ localhost-startStop-1:688 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+2019-12-20 10:53:42  [ localhost-startStop-1:692 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:181)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:162)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:144)
+	... 16 more
+2019-12-20 10:54:28  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:54:28  [ localhost-startStop-1:703 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+2019-12-20 10:54:28  [ localhost-startStop-1:719 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:153)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/properties/resource.properties]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:181)
+	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:162)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:144)
+	... 16 more
+2019-12-20 10:55:01  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:55:03  [ localhost-startStop-1:1688 ] - [ INFO ]  Root WebApplicationContext initialized in 1688 ms
+2019-12-20 10:55:03  [ localhost-startStop-1:1985 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:55:04  [ localhost-startStop-1:2657 ] - [ INFO ]  Completed initialization in 672 ms
+2019-12-20 10:56:11  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:56:13  [ localhost-startStop-1:1578 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'USERS_KEY' in value "${USERS_KEY}"
+2019-12-20 10:56:13  [ localhost-startStop-1:1578 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'USERS_KEY' in value "${USERS_KEY}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'USERS_KEY' in value "${USERS_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 22 more
+2019-12-20 10:58:11  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 10:58:13  [ localhost-startStop-1:1593 ] - [ INFO ]  Root WebApplicationContext initialized in 1593 ms
+2019-12-20 10:58:13  [ localhost-startStop-1:1875 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 10:58:14  [ localhost-startStop-1:2531 ] - [ INFO ]  Completed initialization in 656 ms
+2019-12-20 10:58:17  [ http-bio-8080-exec-3:5825 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:00:31  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 11:00:33  [ localhost-startStop-1:1779 ] - [ INFO ]  Root WebApplicationContext initialized in 1777 ms
+2019-12-20 11:00:33  [ localhost-startStop-1:2061 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:00:34  [ localhost-startStop-1:2723 ] - [ INFO ]  Completed initialization in 662 ms
+2019-12-20 11:00:34  [ http-bio-8080-exec-1:2967 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:00:40  [ http-bio-8080-exec-4:8794 ] - [ INFO ]  {dataSource-1} inited
+2019-12-20 11:07:51  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 11:07:53  [ localhost-startStop-1:1642 ] - [ INFO ]  Root WebApplicationContext initialized in 1642 ms
+2019-12-20 11:07:53  [ localhost-startStop-1:1924 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:07:54  [ localhost-startStop-1:2643 ] - [ INFO ]  Completed initialization in 719 ms
+2019-12-20 11:08:02  [ http-bio-8080-exec-3:10759 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:08:45  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 11:08:47  [ localhost-startStop-1:1672 ] - [ INFO ]  Root WebApplicationContext initialized in 1672 ms
+2019-12-20 11:08:47  [ localhost-startStop-1:1953 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:08:48  [ localhost-startStop-1:2657 ] - [ INFO ]  Completed initialization in 704 ms
+2019-12-20 11:08:50  [ http-bio-8080-exec-1:5232 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:08:58  [ http-bio-8080-exec-3:12570 ] - [ INFO ]  {dataSource-1} inited
+2019-12-20 11:09:08  [ http-bio-8080-exec-7:22750 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:10:59  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 11:11:01  [ localhost-startStop-1:1610 ] - [ INFO ]  Root WebApplicationContext initialized in 1610 ms
+2019-12-20 11:11:01  [ localhost-startStop-1:1891 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:11:02  [ localhost-startStop-1:2578 ] - [ INFO ]  Completed initialization in 687 ms
+2019-12-20 11:11:06  [ http-bio-8080-exec-3:7032 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:11:15  [ http-bio-8080-exec-4:16075 ] - [ INFO ]  {dataSource-1} inited
+2019-12-20 11:12:07  [ http-bio-8080-exec-3:68209 ] - [ INFO ]  系统出现异常，进入全局异常处理器
+2019-12-20 11:12:07  [ http-bio-8080-exec-3:68242 ] - [ ERROR ]  系统发生异常
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: sql injection violation, comment not allow : select * from tb_member
+         WHERE /*当传递过来的会员名不等于空的情况下，可以根据会员名进行模糊查询*/
+            
+            /*当传递过来的创建时间和结束时间不为空，进行查询*/
+### The error may exist in bh/db/ssm/mapper/member/MemberMapper.xml
+### The error may involve bh.db.ssm.mapper.member.MemberMapper.findMemberByCondition
+### The error occurred while executing a query
+### SQL: select * from tb_member          WHERE /*当传递过来的会员名不等于空的情况下，可以根据会员名进行模糊查询*/                          /*当传递过来的创建时间和结束时间不为空，进行查询*/
+### Cause: java.sql.SQLException: sql injection violation, comment not allow : select * from tb_member
+         WHERE /*当传递过来的会员名不等于空的情况下，可以根据会员名进行模糊查询*/
+            
+            /*当传递过来的创建时间和结束时间不为空，进行查询*/
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, comment not allow : select * from tb_member
+         WHERE /*当传递过来的会员名不等于空的情况下，可以根据会员名进行模糊查询*/
+            
+            /*当传递过来的创建时间和结束时间不为空，进行查询*/; nested exception is java.sql.SQLException: sql injection violation, comment not allow : select * from tb_member
+         WHERE /*当传递过来的会员名不等于空的情况下，可以根据会员名进行模糊查询*/
+            
+            /*当传递过来的创建时间和结束时间不为空，进行查询*/
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy53.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy58.findMemberByCondition(Unknown Source)
+	at bh.db.ssm.service.member.impl.MemberServiceImpl.findMemberByCondition(MemberServiceImpl.java:53)
+	at bh.db.ssm.controller.member.MemberController.search(MemberController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLException: sql injection violation, comment not allow : select * from tb_member
+         WHERE /*当传递过来的会员名不等于空的情况下，可以根据会员名进行模糊查询*/
+            
+            /*当传递过来的创建时间和结束时间不为空，进行查询*/
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:714)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:240)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:318)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55)
+	at com.sun.proxy.$Proxy71.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.github.pagehelper.SqlUtil._processPage(SqlUtil.java:402)
+	at com.github.pagehelper.SqlUtil.processPage(SqlUtil.java:375)
+	at com.github.pagehelper.PageHelper.intercept(PageHelper.java:252)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy70.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 52 more
+2019-12-20 11:13:06  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 11:13:07  [ localhost-startStop-1:1678 ] - [ INFO ]  Root WebApplicationContext initialized in 1677 ms
+2019-12-20 11:13:08  [ localhost-startStop-1:1969 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:13:08  [ localhost-startStop-1:2688 ] - [ INFO ]  Completed initialization in 719 ms
+2019-12-20 11:13:09  [ http-bio-8080-exec-4:2949 ] - [ INFO ]  --------------- info ---------------
+2019-12-20 11:23:18  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-20 11:23:21  [ localhost-startStop-1:2147 ] - [ INFO ]  Root WebApplicationContext initialized in 2147 ms
+2019-12-20 11:23:21  [ localhost-startStop-1:2446 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:23:22  [ localhost-startStop-1:3401 ] - [ INFO ]  Completed initialization in 955 ms

@@ -1,0 +1,4 @@
+2019-12-29 22:33:29  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2019-12-29 22:33:31  [ localhost-startStop-1:1958 ] - [ INFO ]  Root WebApplicationContext initialized in 1956 ms
+2019-12-29 22:33:31  [ localhost-startStop-1:2385 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-12-29 22:33:32  [ localhost-startStop-1:3135 ] - [ INFO ]  Completed initialization in 750 ms

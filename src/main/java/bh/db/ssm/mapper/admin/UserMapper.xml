@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="bh.db.ssm.mapper.admin.UserMapper">
+    <!--属性映射-->
+    <resultMap id="myResult" type="bh.db.ssm.entity.User" autoMapping="true">
+        <!--先映射自己的两个时间属性-->
+        <result property="createData" column="create_date"/>
+        <result property="updateData" column="update_date"/>
+        <!--映射里面的用户信息属性-->
+        <association property="userInfo"
+                     select="bh.db.ssm.mapper.admin.UserInfoMapper.findUserInfoById"
+                     column="id">
+        </association>
+
+    </resultMap>
+    <!--查询所有可用用户-->
+    <select id="findAllUser" resultMap="myResult">
+        select *
+        from tb_user
+        where state = 1;
+    </select>
+    <!--插入用户信息,默认用户初始未激活,并同时需要插入用户信息-->
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_user(username, password, create_date, update_date, state)
+        VALUES (#{username}, #{password}, #{createData}, #{updateData}, #{state});
+    </insert>
+    <!--用户登陆-->
+    <select id="login" resultMap="myResult">
+        select *
+        from tb_user
+        where username = #{username}
+          and password = #{password}
+          and state = 1;
+    </select>
+    <!--获取每天的用户新增用户量-->
+    <select id="countNewUserForDay" resultType="int">
+        select count(*)
+        from tb_user
+        where date(create_date) between #{0} and #{1}
+    </select>
+
+
+</mapper>

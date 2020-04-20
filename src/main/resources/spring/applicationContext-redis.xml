@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+	
+
+	<!-- redis单机版 -->
+	<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+		<!--redis的地址-->
+		<constructor-arg name="host" value="39.105.82.150" />
+		<!--redis的端口-->
+		<constructor-arg name="port" value="6379" />
+	</bean>
+	<bean id="jedisClientPool" class="bh.db.ssm.jedis.JedisClientPool">
+		<property name="jedisPool" ref="jedisPool"/>
+	</bean>
+	<!--因为jedis包没有进行自动扫描所以需要给它进行手动注入-->
+
+
+
+
+
+	<!-- redis集群版 -->
+	<!-- <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+		<constructor-arg>
+			<set>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.25.129" />
+					<constructor-arg name="port" value="7001" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.25.129" />
+					<constructor-arg name="port" value="7002" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.25.129" />
+					<constructor-arg name="port" value="7003" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.25.129" />
+					<constructor-arg name="port" value="7004" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.25.129" />
+					<constructor-arg name="port" value="7005" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.25.129" />
+					<constructor-arg name="port" value="7006" />
+				</bean>
+			</set>
+		</constructor-arg>
+	</bean>
+	<bean id="jedisClientCluster" class="bh.db.taotao.jedis.JedisClientCluster" /> -->
+	
+</beans>

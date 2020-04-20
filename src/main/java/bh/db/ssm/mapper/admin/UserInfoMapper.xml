@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="bh.db.ssm.mapper.admin.UserInfoMapper">
+    <!--属性映射-->
+    <resultMap id="myResult" type="bh.db.ssm.entity.UserInfo" autoMapping="true">
+        <result property="trueName" column="true_name"/>
+        <result property="createData" column="create_date"/>
+        <result property="updateData" column="update_date"/>
+    </resultMap>
+    <!--查询用户信息根据用户id-->
+    <select id="findUserInfoById" resultMap="myResult">
+        select *
+        from tb_userinfo
+        where uid = #{id}
+          and state = 1;
+    </select>
+    <!--插入用户信息-->
+    <insert id="insertUserInfo">
+        insert into tb_userinfo(uid, true_name, sex, age, phone, email, birthday, state)
+        VALUES (#{uid}, #{trueName}, #{sex}, #{age}, #{phone}, #{email}, #{birthday}, #{state});
+    </insert>
+
+</mapper>
